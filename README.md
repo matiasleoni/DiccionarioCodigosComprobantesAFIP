@@ -10,7 +10,7 @@ en el archivo *output.py*. Son un total de 96 entradas.
 
 ## Código para generar el diccionario 
 
-Aquellos interesados en reutilizar el código en el caso de futuros cambios en AFIP, se contruyó el archivo *output.py* de la siguiente manera: 
-1. El archivo en formato Excel *TABLACOMPROBANTES.xls* fue descargado del sitio de AFIP http://www.afip.gov.ar/fe/documentos/tablas%20generales%20v.0.1%20%2026012011.xls
-2. Luego lo exporté como archivo de texto (comma separated values) *TABLACOMPROBANTES.csv*.
-3. Corriendo el script *main.py* se genera el diccionario de códigos y se vuelca el resultado en la variable TIPO_COMPROBANTE y en el archivo *output.py*
+Aquellos interesados en reutilizar el código en el caso de futuros cambios en AFIP, se construyó el archivo *output.py* de la siguiente manera: 
+1. La rutina *main.py* descarga el Excel *TABLACOMPROBANTES.xls* del sitio de AFIP <https://www.afip.gob.ar/fe/documentos/TABLACOMPROBANTES.xls> (última consulta 28/6/2023). Si esta dirección falla, basta poner la nueva dirección en el archivo *info.py*.
+2. Luego lo convierte en un CSV *TABLACOMPROBANTES.csv*.
+3. Por último se genera el diccionario de códigos y se vuelca el resultado en la variable TIPO_COMPROBANTE y en el archivo *output.py*

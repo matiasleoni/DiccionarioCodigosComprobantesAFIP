@@ -1,0 +1,1 @@
+AFIP_URL = 'https://www.afip.gob.ar/fe/documentos/TABLACOMPROBANTES.xls'
