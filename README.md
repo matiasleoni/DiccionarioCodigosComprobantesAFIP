@@ -1,5 +1,7 @@
 # Diccionario de tipos de comprobante AFIP en formato Python
 
+![alt text](https://github.com/matiasleoni/DiccionarioCodigosComprobantesAFIP/blob/main/portada.png?raw=true)
+
 ## Diccionario para uso libre:
 
 Este es un diccionario en formato Python con los códigos de tipo de comprobante de AFIP y su descripción. Los interesados pueden obtener directamente el diccionario con el formato
